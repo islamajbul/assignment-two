@@ -111,8 +111,9 @@ body {
 /* -------Love & Enjoy Style---------- */
 .love-and-enjoy {
     display: flex;
-    column-gap: 54px;
+    column-gap: 86px;
     margin: 0 240px 0 240px;
+    align-items: center;
 
 }
 
@@ -154,7 +155,7 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    padding: 30px 42px 30px 30px;
+    padding: 30px;
     column-gap: 20px;
 }
 .love-img{
@@ -163,9 +164,9 @@ body {
 .love-img button{
     position: absolute;
     top: 90%;
-    left: 0%;
-    transform: translate(-30%, -20%);
-    -ms-transform: translate(-50%, -30%);
+    left: 10%;
+    transform: translate(0%, -20%);
+    -ms-transform: translate(-50%, -50%);
 }
 .secondary-btn {
     background: #FF900E;
@@ -174,6 +175,7 @@ body {
     width: 342px;
     height: 200px;
     border: 0;
+    padding: 0;
 }
 .secondary-btn h2{
     font-size: 65px;
