@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    padding: 50px 240px 45px 228px;
+    padding: 50px 240px 45px 230px;
     background: rgba(255, 144, 14, 0.1);
 }
 
@@ -30,6 +30,7 @@ body {
     font-size: 18px;
     color: #424242;
     margin: 0;
+    padding-left: 30px;
 }
 
 /* ------Banner Style---------- */
@@ -111,7 +112,7 @@ body {
 /* -------Love & Enjoy Style---------- */
 .love-and-enjoy {
     display: flex;
-    column-gap: 86px;
+    column-gap: 146px;
     margin: 0 240px 0 240px;
     align-items: center;
 
@@ -123,7 +124,8 @@ body {
     font-size: 45px;
     color: #131313;
 }
-.fast-title h2{
+
+.fast-title h2 {
     margin-top: 0;
 }
 
@@ -136,7 +138,8 @@ body {
     font-size: 20px;
     color: #131313;
 }
-.second-title h3{
+
+.second-title h3 {
     margin: 0;
 }
 
@@ -158,16 +161,19 @@ body {
     padding: 30px;
     column-gap: 20px;
 }
-.love-img{
+
+.love-img {
     position: relative;
 }
-.love-img button{
+
+.love-img button {
     position: absolute;
     top: 90%;
-    left: 10%;
-    transform: translate(0%, -20%);
+    left: 0%;
+    transform: translate(-20%, -20%);
     -ms-transform: translate(-50%, -50%);
 }
+
 .secondary-btn {
     background: #FF900E;
     color: #FFFFFF;
@@ -177,11 +183,96 @@ body {
     border: 0;
     padding: 0;
 }
-.secondary-btn h2{
+
+.secondary-btn h2 {
     font-size: 65px;
     margin: 0;
 }
-.secondary-btn h4{
+
+.secondary-btn h4 {
     font-size: 25px;
-    margin-top: 0;
+    margin: 0;
+}
+
+/* --------------fact style------------ */
+.fact {
+    margin: 130px 240px 0 240px;
+}
+
+.fact-description {
+    margin-bottom: 100px;
+}
+
+.fact-description h3 {
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-description p {
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.fact-icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.icon {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 36px;
+}
+
+.icon h3 {
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.icon p {
+    font-size: 20px;
+    color: #727272;
+    margin: 10;
+}
+
+/* ------------Sponspors Style----------- */
+.sponspors {
+    margin: 180px 240px 130px 240px;
+    text-align: center;
+}
+
+.sponspors h2 {
+    font-size: 45px;
+    color: #131313;
+    margin: 0;
+}
+
+.sponspors p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.sponspors-logos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 0 auto 216px auto;
+    font-size: 20px;
+    color: #424242;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 38px;
 }
