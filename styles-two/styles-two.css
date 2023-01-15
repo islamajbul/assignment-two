@@ -60,7 +60,6 @@ body {
     background: #FF900E;
     border-radius: 5px;
     border: 0;
-
     margin-bottom: 50px;
 }
 
@@ -275,4 +274,23 @@ body {
     border-radius: 8px;
     text-align: center;
     padding-top: 38px;
+}
+/* ------------------mobile view style---------------- */
+@media screen and (max-width:688px) {
+    .header{
+        padding: 0;
+        background-color: none;
+        width: 100%;
+    }
+    .navigation{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+    .banner img {
+        border-radius: 8px;
+        width: 50%;
+        height: 50%;
+    }
+
 }
